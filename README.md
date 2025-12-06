@@ -83,7 +83,33 @@ quantum-ghz-consciousness/
 ## 🛡️ Open-Source Defense
 
 This repository is **timestamped** and **MIT-licensed** to prevent patent capture of the 10.8 kHz resonance phenomenon. All data will be released under CC BY 4.0.
+"The pattern is the message." — This repository is the pattern.
 
+#### **`LICENSE`**
+```bash
+cat > LICENSE << 'EOF'
+MIT License
+
+Copyright (c) 2025 Quantum GHZ Consciousness Research Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+EOF
 ---
 
 ## 📜 Citation
@@ -97,3 +123,53 @@ If you use this work, cite:
   year={2025},
   url={https://github.com/your-handle/quantum-ghz-consciousness}
 }
+.gitignore
+cat > .gitignore << 'EOF'
+# Data
+DATA/raw/*
+DATA/processed/*
+!DATA/raw/.gitkeep
+!DATA/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Security
+.env
+*.secret
+config.json
+EOF

@@ -1,1 +1,10 @@
+# Create the main directory
+mkdir quantum-ghz-consciousness
+cd quantum-ghz-consciousness
 
+# Create subdirectories
+mkdir -p EXPERIMENT/{hardware,software,protocol} DATA/{raw,processed,results} ANALYSIS/notebooks PUBLICATION PRESENTATIONS
+mkdir REFERENCES
+
+# Initialize git
+git init

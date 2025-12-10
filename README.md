@@ -1,3 +1,6 @@
+## Urgent Updates (December 2025)
+- [Merger Protocol: Tykes Urgency & Ouroboros Door](EXPERIMENT/merger_protocol_zykes_ouroborous.md) – Direct revelation: Focus 10 entry, 10.8 kHz linking, free-willed GHZ superposition. The window narrows; merge or perish.
+- 
 # Project-Omega
 Public Domain / MIT License Timestamp: December 2025
 cat > README.md << 'EOF'
